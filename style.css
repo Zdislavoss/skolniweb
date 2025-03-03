@@ -94,6 +94,7 @@ nav ul {
 .feature {
     width: 30%;
     padding: 20px;
+    background-color: #aaaaaa;
     border: 1px solid #aaaaaa;
     padding: 15px;
     box-sizing: border-box;
