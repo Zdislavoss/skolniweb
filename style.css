@@ -85,6 +85,7 @@ nav ul {
 }
 
 .features {
+    background-color: rgb(245, 245, 245);
     display: flex;
     gap: 10px;
     flex-wrap;
@@ -95,7 +96,33 @@ nav ul {
     width: 30%;
     padding: 20px;
     background-color: #aaaaaa;
-    border: 1px solid #aaaaaa;
+    border: 1px solid #ffffff;
     padding: 15px;
     box-sizing: border-box;
+}
+.heading {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.heading h2 {
+    font-size: 28px;
+}
+
+.theme-primary {
+    background-color: rgb(245, 245, 245);
+    color: rgb(0, 0, 0);
+}
+
+.theme-primary .btn {
+    background-color: rgb(231, 231, 231);
+    color: black;
+}
+.heading {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.heading h2 {
+    font-size: 28px;
 }
