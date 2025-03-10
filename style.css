@@ -73,6 +73,8 @@ nav ul {
 .banner-text h1 {
     font-size: 48px;
     font-weight: bold;
+    
+    
 }
 
 .banner-text p {
@@ -82,6 +84,7 @@ nav ul {
 .heading {
     text-align: center;
     margin-bottom: 20px;
+    
 }
 
 .features {
@@ -125,4 +128,25 @@ nav ul {
 
 .heading h2 {
     font-size: 28px;
+}
+.product {
+    display: flex;
+    margin-bottom: 20px;
+    background-color: #e6e6e6;
+}
+
+.product-info {
+    padding: 40px;
+    flex: 1;
+}
+
+.product-image {
+    flex: 1;
+}
+
+.product-image img {
+    max-width: 100%;
+}
+.product.reverse {
+    flex-direction: row-reverse;
 }
