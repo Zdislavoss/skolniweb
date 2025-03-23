@@ -206,11 +206,11 @@ body {
 }
 
 .btn:hover {
-    background-color: #ffffff; /
+    background-color: #e6e6e6; /
 }
 .contact {
     display: flex;
-    background-color: #e6e6e6;
+    background-color: #ffffff;
 }
 
 .contact-box {
@@ -221,5 +221,9 @@ body {
 
 .contact a {
     color: #000000;
+    text-decoration: none;
+}
+nav ul li a {
+    color: black;
     text-decoration: none;
 }
